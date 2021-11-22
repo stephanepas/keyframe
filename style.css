@@ -24,10 +24,7 @@
     width: 100px;
     height: 100px;
     border-top: 1px solid black;
-    animation-name: translation, rotate;
-    animation-duration: 6s, 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out, linear;
+    animation: translation 6s infinite ease-in-out, rotate 2s infinite linear;
     background-color: yellowgreen;
   }
   @keyframes translation {
