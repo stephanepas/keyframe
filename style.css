@@ -65,6 +65,9 @@
     left: 0px;
   }
 }
+.div{
+  width: 100%;
+}
 .cube {
   width: 200px;
   height: 200px;
@@ -72,9 +75,11 @@
   border: 1px solid grey;
   position: relative;
   left: calc(100% - 200px);
-}
-.cube:hover {
   animation: slide 10s infinite linear;
+animation-play-state: paused;
+}
+.div:hover {
+  animation-play-state: running;
 }
 @keyframes slide {
   from {
